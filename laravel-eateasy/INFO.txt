@@ -1,0 +1,13 @@
+INFO
+
+nel file "AuthenticatesUsers.php"
+	- ho messo l'incremento degli accessi nella "public function login"
+	- ho messo il controllo del completamento dei dati nella "protected function handleUserWasAuthenticated"
+    
+    
+cambiare il metodo di passaggio dell'id nella compilazione del form di registrazione (non attraverso campo nascosto)
+
+
+registrazione utente : passare ID_livello
+
+SQL_popolamento -> lingue, livello

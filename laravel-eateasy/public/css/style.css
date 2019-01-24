@@ -1,0 +1,487 @@
+/* questo file CSS contiene le nostre modifiche al sorgente materialize.min.css */
+nav .logo {
+  margin-left: 20px;
+}
+/*________________________*/
+/* USATO PER LA SEARCHBAR */
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+
+/* Form wrapper styling */
+@media only screen and (min-width: 1px) {
+  .search-wrapper {
+    width: 220px;
+    margin: 45px auto 50px auto;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .search-wrapper {
+    width: 420px;
+    margin: 45px auto 50px auto;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .search-wrapper {
+    width: 820px;
+    margin: 45px auto 50px auto;
+  }
+}
+
+/* Form text input */
+@media only screen and (min-width: 1px) {
+  .search-wrapper input {
+    width: 138px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;
+    font: bold 15px 'roboto';
+    border: 0;
+    background: #EEE;
+    border-radius: 3px 0 0 3px;
+    color:#000;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .search-wrapper input {
+    width: 338px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;
+    font: bold 15px 'roboto';
+    border: 0;
+    background: #EEE;
+    border-radius: 3px 0 0 3px;
+    color:#000
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .search-wrapper input {
+    width: 738px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;
+    font: bold 15px 'roboto';
+    border: 0;
+    background: #EEE;
+    border-radius: 3px 0 0 3px;
+    color:#000
+  }
+}
+.search-wrapper input:focus {
+  outline: 0;
+  background: #F4F3EE;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .8) inset;
+}
+
+.search-wrapper input::-webkit-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.search-wrapper input:-moz-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.search-wrapper input:-ms-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+/* Form submit button */
+@media only screen and (min-width: 1px) {
+  .search-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 72px;
+    font: bold 15px/40px 'roboto';
+    color:  #F4F3EE;
+    text-transform: uppercase;
+    background: #1565c0;
+    border-radius: 0 3px 3px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .search-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 72px;
+    font: bold 15px/40px 'roboto';
+    color:  #F4F3EE;
+    text-transform: uppercase;
+    background: #1565c0;
+    border-radius: 0 3px 3px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .search-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 72px;
+    font: bold 15px/40px 'roboto';
+    color:  #F4F3EE;
+    text-transform: uppercase;
+    background: #1565c0;
+    border-radius: 0 3px 3px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+  }
+}
+
+
+
+.search-wrapper button:hover {
+  background: #2676d1;
+}
+
+.search-wrapper button:active,
+.search-wrapper button:focus {
+  background: #1565c0;
+  outline: 0;
+}
+
+.search-wrapper button:before {
+  /* left arrow */
+  content: '';
+  position: absolute;
+  border-width: 8px 8px 8px 0;
+  border-style: solid solid solid none;
+  border-color: transparent #1565c0 transparent;
+  top: 12px;
+  left: -6px;
+}
+
+.search-wrapper button:hover:before {
+  border-right-color: #2676d1;
+}
+
+.search-wrapper button:focus:before,
+.search-wrapper button:active:before {
+  border-right-color: #1565c0;
+}
+
+.search-wrapper button::-moz-focus-inner {
+  /* remove extra button spacing for Mozilla Firefox */
+  border: 0;
+  padding: 0;
+}
+
+/*############## COLORI ELEMENTI MATERIALIZE ################*/
+/* navbar */
+nav {
+  background-color: #1565c0;  /* blue darken-3 */
+}
+/* footer */
+footer.page-footer {
+  background-color: #1565c0;  /* blue darken-3 */
+}
+/* il footer rimane ancorato a fine pagina */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+/* button */
+.btn, .btn-large {
+  text-decoration: none;
+  color: #F4F3EE;
+  background-color: #1565c0;  /* blue darken-3 */;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
+button i.material-icons, .btn-large i.material-icons {
+  color:  #F4F3EE;
+}
+.btn:hover, .btn-large:hover {
+  background-color: #1976d2; /*blue darken-2*/
+}
+.btn.disabled, .disabled.btn-large, .btn-floating.disabled, .btn-large.disabled, .btn:disabled, .btn-large:disabled, .btn-large:disabled, .btn-floating:disabled {
+  background-color: #DFDFDF !important;
+  color: #9F9F9F !important;
+}
+.btn.disabled:hover, .disabled.btn-large:hover, .btn-floating.disabled:hover, .btn-large.disabled:hover, .btn:disabled:hover, .btn-large:disabled:hover, .btn-large:disabled:hover, .btn-floating:disabled:hover {
+  background-color: #DFDFDF;
+  color: #9F9F9F;
+}
+waves-effect.waves-blue .waves-ripple { /*effetto waves*/
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(30, 136, 229, 1);
+    }
+/* Input field */
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #1565c0;  /* blue darken-3 */;
+  box-shadow: 0 1px 0 0 #1565c0;  /* blue darken-3 */;
+}
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #1565c0;  /* blue darken-3 */;
+}
+/*material icons*/
+.material-icons{
+  color: #1565c0;  /* blue darken-3 */;
+} 
+.material-icons.prefix.active{
+    color: #1565c0;  /* blue darken-3 */;
+}
+
+.material-icons:active, 
+.material-icons:focus, 
+.material-icons:hover,
+.material-icons:after{ 
+    color: #F4F3EE;
+}
+a i.material-icons:hover{
+  color:#1565c0;  /* blue darken-3 */;
+}
+button[type=submit] i.material-icons{
+    color:  #F4F3EE;
+}
+nav i.material-icons{
+    color:  #F4F3EE;
+}
+/*checkbox*/
+[type="checkbox"]:checked + label:before {
+  top: -4px;
+  left: -3px;
+  width: 12px;
+  height: 22px;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid #1565c0;  /* blue darken-3 */;
+  border-bottom: 2px solid #1565c0;  /* blue darken-3 */;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+[type="checkbox"].filled-in:checked + label:after {
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #1565c0;  /* blue darken-3 */;
+  background-color: #1565c0;  /* blue darken-3 */;
+  z-index: 0;
+}
+/*dropdown*/
+.dropdown-content li > a, .dropdown-content li > span {
+  font-size: 16px;
+  color: #1565c0;  /* blue darken-3 */;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+}
+/* date picker */
+.picker__nav--prev:hover, /* per scorrere il calendario*/
+.picker__nav--next:hover {
+  cursor: pointer;
+  color: #000000;
+  background: #1e88e5 /*blue darken-1*/;
+    opacity: 0.5;
+}
+
+.picker__weekday-display { /* parte in alto con il nome del giorno*/
+  background-color: #1565c0;  /* blue darken-3 */;
+  padding: 10px;
+  font-weight: 200;
+  letter-spacing: .5;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.picker__date-display { /* parte centrale del calendario */
+  text-align: center;
+  background-color: #1565c0;  /* blue darken-3 */;
+  color:  #F4F3EE;
+  padding-bottom: 15px;
+  font-weight: 300;
+}
+ picker__day--selected,         /* cerchio giorno selezionato */
+.picker__day--selected:hover,
+.picker--focused .picker__day--selected {
+  border-radius: 50%;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  background-color: #1565c0;  /* blue darken-3 */;
+  color:  #F4F3EE;
+}
+
+.picker__day--selected.picker__day--outfocus,
+.picker__day--selected:hover.picker__day--outfocus,
+.picker--focused .picker__day--selected.picker__day--outfocus {
+  background-color:#1e88e5 /*blue darken-1*/;
+}
+
+.picker__close, .picker__today { /* bottoni TODAY e CLOSE*/
+  font-size: 1.1rem;
+  padding: 0 1rem;
+  color:  #1565c0;  /* blue darken-3 */;
+}
+button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
+  background-color:#1e88e5 /*blue darken-1*/;
+    opacity: 0.5;
+}
+
+.picker__day.picker__day--today { /* giorno di oggi */
+  color: #1565c0;  /* blue darken-3 */;
+}
+button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
+  background-color::#1e88e5 /*blue darken-1*/;
+}
+
+/*menu autocomplete comune*/
+.ui-menu, .ui-autocomplete, .ui-front, .ui-widget, .ui-widget-content{
+    color: #1565c0;  /* blue darken-3 */;
+    background-color: #FFF;
+    border-color: #F4F3EE;
+    border: 1px;
+    border-style: solid;
+    width: 10%;
+    z-index: 1;
+}
+.ui-menu li:hover{
+    background-color:  #F4F3EE;
+     cursor: pointer;
+}
+.ui-menu li:hover{
+    background-color: #F4F3EE;
+     cursor: pointer;
+}
+/*card*/
+.card-panel {
+  transition: box-shadow .25s;
+  padding: 20px;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+  background-color:  #F4F3EE;
+}
+
+.card {
+  position: relative;
+  margin: 0.5rem 0 1rem 0;
+  background-color:  #F4F3EE;
+  transition: box-shadow .25s;
+  border-radius: 2px;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+  color: #CE4257;
+  margin-right: 20px;
+  transition: color .3s ease;
+  text-transform: uppercase;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+  color: #FF4257;
+}
+/*carousel*/
+.carousel {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  -webkit-perspective: 500px;
+          perspective: 500px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
+}
+
+.carousel .carousel-item {
+  width: 400px;    
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*progrss*/
+.progress {
+  position: relative;
+  height: 4px;
+  display: block;
+  width: 100%;
+  background-color: #bbdefb; /*blue lighten-4*/
+  border-radius: 2px;
+  margin: 0.5rem 0 1rem 0;
+  overflow: hidden;
+}
+
+.progress .determinate {
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #1565c0;  /* blue darken-3 */;
+  transition: width .3s linear;
+}
+
+.progress .indeterminate {
+  background-color: #1565c0;  /* blue darken-3 */;
+}
+
+.collection a.collection-item {
+  display: block;
+  transition: .25s;
+  color: #1565c0;  /* blue darken-3 */
+}
