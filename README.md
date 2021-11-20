@@ -1,4 +1,18 @@
 # EatEasy
+High school thesis project (Pederzani, Genesi, Altieri, Marforio): 
+Web application consisting of a search engine for businesses for people with special needs 
+(motor difficulties, hearing, vision, allergies and food preferences, needs of new mothers).
+
+## Description (EN)
+Eateasy is a project developed throughout the 2015/2016 school year by the GAMP group, formed by: Lorenzo Genesi, Matteo Altieri, Simone Marforio, Luigi Pederzani; in collaboration with two girls from the University of Architecture of Genoa: Tatiana Giordano and Marta Bozzano. 
+Our collaboration has been carried out on two fronts: their expertise in architectural accessibility arising from special needs and our computer knowledge from the initial analysis to the design and development of the project.
+The project stems from the desire to promote diversity as an enriching factor. Each of us is different from those next to us, and for this reason everyone must have the opportunity to enjoy a meal outside their home, while maintaining their autonomy.
+The final goal is to promote all commercial activities that offer services targeted to people with special needs, including motor disabilities (free transit for wheelchairs, enough space to move without problems ...), hearing disabilities or visual impairments, specific dietary requirements (allergies, intolerances, vegetarianism, veganism, celiac disease ...), attention to the environment (use of biodegradable materials, recycling ...) and families (recreational space for children, availability of accessories suitable for early childhood ...).
+Similarly, our web application is also designed to be accessible to the greatest number of people, according to our analysis. For example, it is possible to enlarge the text or desaturate colors that might bother people with color blindness. On the other hand, an ad-hoc search engine has been developed to ensure the greatest possible accuracy in the results of a search based on any end-user requirement.
+
+*** 
+
+## Descrizione (IT)
 Progetto di Maturità (Pederzani, Genesi, Altieri, Marforio): 
 Web application costituita da un motore di ricerca per attività commerciali per persone con particolari necessità 
 (difficoltà motorie, uditive, visive, allergie e preferenze alimentari, necessità di neo-mamme).
